@@ -1,0 +1,107 @@
+ @media only screen and (min-width: 375px) {
+    html {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        max-width: 100%;
+    }
+
+    body {
+    background-image: url("https://cdn.glitch.global/ee8dedd3-cecf-4a18-8a8e-55d9774f21af/bg-pattern-top.svg?v=1663715895552"), url("https://cdn.glitch.global/ee8dedd3-cecf-4a18-8a8e-55d9774f21af/bg-pattern-bottom.svg?v=1663715895537");
+    background-color: #19A1AE;
+    background-repeat: no-repeat;        
+    background-position: -100vh -90vh, 60px 50vh;
+    
+  }
+  
+  .wrapper {
+    width: 326px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    text-align: center;
+    margin: 0px 24px 0px 24px;
+  }
+  
+  .img-box, .card-background {
+    border-radius: 15px 15px 0px 0px;
+    width: 326px;
+  }
+  
+  .user-icon {
+    width: 97px;
+    margin-top: -50px;
+    border: 5px solid #FFFFFF;
+    border-radius: 100px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #2E3349;
+    margin-right: 9px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  .age {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6B7082;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  .name-age {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 13px
+  }
+  
+  .city {
+    font-weight: 400;
+    font-size: 14px;
+    color: #6B7082;
+    margin-bottom: 28px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  .hr-line {
+    background-color: #E8E9EC;
+    height: 1px;
+    margin-bottom: 24px;
+  }
+  
+  .followers-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 59px 27px 56.5px;
+  }
+  
+  .follow-count, .likes-count, .photos-count {
+    color: #2E3349;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 9px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  
+  .follow-label, .likes-label, .photos-label {
+    color: #6B7082;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 27px;
+    letter-spacing: 1.5px;
+    line-height: 12px;
+    font-family: 'Kumbh Sans', sans-serif;
+  }
+  }
+  
+  @media only screen and (min-width: 1000px) {
+    body {
+     background-position: -45% 185%, 135% -125%;
+    }
+  }
