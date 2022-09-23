@@ -1,6 +1,6 @@
 # Profile Card Component
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U).
+This is a solution to the [Profile card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ).
 
 ## Table of contents
 
@@ -25,7 +25,6 @@ In this project I mainly needed to focus on background styles, image transform e
 Users should be able to:
 
 - View the optimal layout depending on their device's screen size
-- Create background images with background color merged
 
 ### Links
 
